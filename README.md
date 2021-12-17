@@ -1,0 +1,2 @@
+# Alogrithm
+Weekly Algorithm practice
