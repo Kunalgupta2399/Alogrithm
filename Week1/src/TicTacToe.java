@@ -55,7 +55,7 @@ public class TicTacToe {
     }
 
     private static int checkMatrixWinner(String symbol) {
-        System.out.println(symbol + " is checking.");
+//        System.out.println(symbol + " is checking.");
         boolean wins = false;
 
         //vertical cases
@@ -85,7 +85,7 @@ public class TicTacToe {
 
         if (wins) {
             if (symbol.equals("O")) {
-                System.out.println("here");
+//                System.out.println("here");
                 return 0;
             } else {
                 return 1;
