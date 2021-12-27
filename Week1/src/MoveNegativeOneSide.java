@@ -27,9 +27,20 @@ public class MoveNegativeOneSide {
         return b;
 
         //find space efficient solution for this
+//        int index = 0;
+//
+//        for (int i = 1; i < array.length; i++) {
+//            if(array[i] < 0) {
+//                int temp = array[index];
+//                array[index] = array[i];
+//                array[i] = temp;
+//                index++;
+//            }
+//        }
+//
+//        return array;
 
     }
-
 
     private static void printArray(int[] array) {
         for (int i = 0; i < array.length; i++) {
